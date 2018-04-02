@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## a simple directed graph using jQuery
 
-You can use the [editor on GitHub](https://github.com/n-yousefi/Arg-Graph/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Arg(ارگ)-Graph](https://en.wikipedia.org/wiki/Arg_e_Bam) is a simple free library for creating directed SVG graphs.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
