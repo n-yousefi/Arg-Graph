@@ -63,5 +63,3 @@ var output = $('#arg-Graph').ArgGraph().output();
 ## Author
 Naser Yousefi
      
- ## License
-Licensed under the Apache License, Version 2.0.
