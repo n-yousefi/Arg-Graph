@@ -1,6 +1,6 @@
-## a simple directed graph using jQuery
+## Arg-Graph
 
-[Arg](https://en.wikipedia.org/wiki/Arg_e_Bam)-Graph is a simple free library for creating directed SVG graphs.
+[Arg](https://en.wikipedia.org/wiki/Arg_e_Bam)-Graph is a simple free library for creating directed SVG graphs or diagram using JQuery.
 
 ## Examples/Demos
 The best way to become acquainted with the library is to see [Demos](https://n-yousefi.github.io/Arg-Graph/Demo/Example1.html)
