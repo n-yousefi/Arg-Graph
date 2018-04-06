@@ -1,4 +1,8 @@
-﻿.arg-Graph_item {
+.arg-graph {
+    position: relative;
+    height: 100vh;
+}
+.arg-Graph_item {
     cursor: move;
     direction: ltr;
     color: black;
