@@ -8,7 +8,7 @@ The best way to become acquainted with the library is to see [Demos](https://n-y
 ## How it works
 ### HTML:
 ```html
-<div id="arg-Graph">
+<div class="arg-Graph">
      <div id="item1" class="arg-Graph_item">
         Title
         <span class="arg-Graph_connector-handler"></span>
@@ -23,7 +23,7 @@ The best way to become acquainted with the library is to see [Demos](https://n-y
 ```
 ### JavaScript
 ```javascript
- $('#arg-Graph').ArgGraph();
+ $('.arg-Graph').ArgGraph();
 ```
 
 ### Output
@@ -56,7 +56,7 @@ You can get output as an JavaScript object like this:
 ```
 Only by calling the output function:
 ```javascript
-var output = $('#arg-Graph').ArgGraph().output();
+var output = $('.arg-Graph').ArgGraph().output();
 ```
 
 
