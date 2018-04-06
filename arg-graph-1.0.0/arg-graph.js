@@ -165,7 +165,6 @@
         };
         plugin.resetGraph = function () {
             addSvgMarkers();
-            $element.css('position', 'relative');
             var items = $element.find(".arg-Graph_item");
             // قابلیت درگ
             $.each(items, function (index, value) {
