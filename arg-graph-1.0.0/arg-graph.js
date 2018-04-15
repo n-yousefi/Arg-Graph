@@ -164,8 +164,7 @@
             }            
         };
         plugin.resetGraph = function () {
-            addSvgMarkers();
-            $element.css('position', 'relative');
+            addSvgMarkers();            
             var items = $element.find(".arg-Graph_item");
             // قابلیت درگ
             $.each(items, function (index, value) {
@@ -238,11 +237,14 @@
             $element.mouseup(function (e) {
                 e.stopPropagation();
                 e.preventDefault();
-
+                var $target = $(e.target);
+                if (!$target.is('.arg-Graph_item')) {
+                    $target = $target.closest(".arg-Graph_item");
+                }
+                
                 if (dragging
                     && dragType === 'C'
-                    && $(e.target).is('.arg-Graph_item')) {
-                    var $target = $(e.target);
+                    && $target != null) {
                     var targetId = $target.attr("id");
                     var startDrag = $element.find("#" + dragItemId);
                     var startId = startDrag.attr("id");

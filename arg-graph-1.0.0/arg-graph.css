@@ -1,4 +1,16 @@
-﻿.arg-Graph_item {
+﻿/* 
+    Arg-Graph
+    version 1.0, 2 Apr 2018
+    by Naser Yousefi
+    Website: https://github.com/n-yousefi/Arg-Graph 
+
+*/
+
+.arg-Graph {
+    position: relative;
+    height: 100vh;
+}
+.arg-Graph_item {
     cursor: move;
     direction: ltr;
     color: black;
