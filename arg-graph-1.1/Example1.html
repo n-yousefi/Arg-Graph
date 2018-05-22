@@ -133,7 +133,7 @@
             argGraph = $('.arg-Graph').ArgGraph({
                 'onGraphChange': function () {
                     var json = argGraph.exportJson();
-                    $("#output")[0].value=document.createTextNode(json);
+                    $("#output").html(document.createTextNode(json));
                 }
             });
 
@@ -144,7 +144,7 @@
                 });
 
             var json = argGraph.exportJson();
-            $("#output").val(document.createTextNode(json));
+            $("#output").html(document.createTextNode(json));
         });
 
     </script>
