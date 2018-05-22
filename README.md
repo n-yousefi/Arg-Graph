@@ -17,8 +17,8 @@ You can create a digraph (directed graph) easily by calling the "ArgGraph" funct
 var argGraph=$('.arg-Graph').ArgGraph();
 ```
 ### Adding new nodes:
-#### Append html
-You can append new items to the container div as html code like this
+#### Append html code
+You can append new items to the container div, as html code. like this:
 ```html
 <div class="arg-Graph">
      <div id="item1" class="arg-Graph_item" data-neighbors="item2,item3" style="left: 259px; top: 22px;">
@@ -33,7 +33,7 @@ You can append new items to the container div as html code like this
     </div>
 </div>
 ```
-And then you must refresh the graph by calling 'refresh' function.
+Now you must refresh the graph by calling 'refresh' function.
 ```javascript
 argGraph.refresh()
 ```
@@ -54,7 +54,7 @@ newItem = {
     }
 argGraph.import(newItem)
 ```
-Also you can append multiple items as array object using "import" function.
+Note: You can append multiple items as array object using "import" function.
 #### import JSON object
 You can import this object as JSON format by calling "importJson" function.
 ```javascript
