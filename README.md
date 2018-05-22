@@ -11,16 +11,6 @@ The best way to become acquainted with the library is to see [Demos](https://n-y
 You can create a digraph (directed graph) easily by calling the "ArgGraph" function.
 ```html
 <div class="arg-Graph">
-     <div id="item1" class="arg-Graph_item" data-next-ids="item2,item3">
-        Title
-        <span class="arg-Graph_connector-handler"></span>
-        <span class="arg-Graph_delete-item"></span>
-    </div>
-    <div id="item2" class="arg-Graph_item">
-        Title
-        <span class="arg-Graph_connector-handler"></span>
-        <span class="arg-Graph_delete-item"></span>
-    </div>
 </div>
 ```
 ```javascript
