@@ -1,0 +1,65 @@
+﻿.arg-Graph {
+    position: relative;
+    height: 100vh;
+}
+.arg-Graph_item {
+    cursor: move;
+    direction: ltr;
+    color: white;
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    position: absolute;
+    min-width: 100px;
+    min-width: 20px;
+    left: 100px;
+    background-color: #626677;
+    border-radius: 3px;
+    top: 10px;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.arg-Graph_item i{
+    color:black;
+    float:right;
+    margin-top :10px;
+}
+
+.arg-Graph_connector-handler,
+.arg-Graph_delete-item {
+    display: inline-block;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    border-radius: 3px;
+    position: absolute;
+    display: none;    
+}
+.arg-Graph_connector-handler {
+    cursor: alias;
+    background: whitesmoke;
+    color: black;
+    right: 0;
+    bottom: 0;
+}
+.arg-Graph_delete-item {
+    cursor: pointer;
+    background: red;
+    left: 0;
+    top: 0;
+}
+.arg-Graph_connector-handler:after {
+    content: "ꜜ";
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.arg-Graph_delete-item:after {
+    content: "X";
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
