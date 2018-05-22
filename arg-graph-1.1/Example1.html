@@ -139,12 +139,12 @@
 
             $('#import').on('click',
                 function() {
-                    var json = $("#input").html();
+                    var json = $("#input").val();
                     argGraph.importJson(json);
                 });
 
             var json = argGraph.exportJson();
-            $("#output").html(document.createTextNode(json));
+            $("#output").val(document.createTextNode(json));
         });
 
     </script>
