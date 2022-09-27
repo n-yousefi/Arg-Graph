@@ -1,3 +1,7 @@
+# Note: This repository is no longer in active development or maintenance.
+# We highly encourage you to consider [connect-it](https://github.com/n-yousefi/connect-it) instead.
+
+
 ## Arg-Graph
 
 [Arg](https://en.wikipedia.org/wiki/Arg_e_Bam)-Graph is a simple free library for creating dynamic Directed Graph using JQuery which enables you to draw SVG based connectors (lines, arrows) between DOM nodes via drag and drop.
